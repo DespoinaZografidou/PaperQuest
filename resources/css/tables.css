@@ -1,0 +1,66 @@
+table {
+    border-collapse: separate;
+    width: 100%;
+    background-color: rgba(76, 75, 76, 0.2);
+    border-spacing: 0 4px ;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+tr{
+    background-color: rgba(255, 255, 251, 1);
+    box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.18);
+
+}
+
+tr:hover{
+    background-color: rgba(200, 196, 198, 0.9);
+}
+
+tr td:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+tr td:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.avatar_div{
+    width:50px;
+    height: 50px;
+    position: relative;
+}
+.avatar_frame{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    width: auto;
+}
+.avatar_status{
+    position: absolute;
+    right: 4px;
+    bottom:-2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.active_account{
+    background-color: rgba(32, 195, 99, 1);
+}
+
+.unactive_account{
+    background-color: rgba(195, 32, 36, 1);
+}

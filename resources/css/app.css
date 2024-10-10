@@ -1,0 +1,106 @@
+
+hr{
+    margin: 0px;
+}
+
+.locked{
+    color:rgba(195, 32, 36, 1)
+}
+.unlocked{
+    color:rgba(32, 195, 99, 1)
+}
+
+.fi fi-sr-bullet{
+    font-size: 30em;
+}
+
+.neon-red {
+    --neon: #FF5161;
+    --neon-glow: #D30302;
+}
+
+.neon-green {
+    --neon: #00fe9b;
+    --neon-glow: #02c435;
+}
+
+.neon-white {
+    --neon: #fefefe;
+    --neon-glow: #ffffff;
+}
+
+
+@supports (background: color(display-p3 1 1 1)) {
+    .neon-red {
+        --neon-glow: color(display-p3 1 0 0);
+    }
+    .neon-green {
+        --neon-glow: color(display-p3 0 1 0);
+    }
+    .neon-white {
+        --neon-glow: color(display-p3 1 1 1);
+    }
+
+}
+
+
+.neon_border{
+    border: 3px solid var(--neon);
+    box-shadow:
+        0 0 25px var(--neon-glow),
+        inset 0 0 25px var(--neon-glow);
+}
+
+.con{
+    background-color: rgb(36, 37, 38);
+    /*box-shadow: inset gray 0px 0px 30px -12px;*/
+    border-radius: 10px;
+}
+.con:hover{
+    cursor: pointer;
+}
+
+
+.tooltip-arrow {
+    display: none !important;
+}
+.tooltip-inner{
+    border-radius: 0px !important;
+    height: 189px;
+    background-color: rgba(33, 37, 41,1);
+    padding: 5px;
+    width: 350px !important;     /* Set a fixed width */
+    border: 1px solid white;
+    overflow: auto;
+}
+
+
+
+.tool button{
+    font-size: 0.90rem;
+    padding: 5px 0 5px 0;
+    width: 100%;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
