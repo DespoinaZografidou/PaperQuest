@@ -5,19 +5,19 @@
 1.	Το dump αρχείο της βάσης  
 2.	Το αρχείο με τα στοιχεία σύνδεσης σε λογαριασμούς χρηστών, που δημιουργήθηκαν για δοκιμές του συστήματος.
 3.	Προαπαιτούμε για την εγκατάσταση της εφαρμογής στο υπολογιστή σας είναι να είναι εγκαταστημένα τα εξής στον υπολογιστή σας :
-•	Composer: https://getcomposer.org/download/ 
-•	Php: https://www.php.net/downloads 
-•	Node.js: https://nodejs.org/en 
+    •	 Composer: https://getcomposer.org/download/ 
+    •	Php: https://www.php.net/downloads 
+    •	Node.js: https://nodejs.org/en 
 1.	Για την εγκατάσταση της εφαρμογής στον υπολογιστή σας θα πρέπει να κλωνοποιήσετε το Project από το GitHub στο φάκελο root to Web Host της επιλογής σας.
-•	Έπειτα θα ανοίξετε το command prompt και θα μετακινηθείτε στο root φάκελο του  Web Host σας.
+    •	Έπειτα θα ανοίξετε το command prompt και θα μετακινηθείτε στο root φάκελο του  Web Host σας.
 	cd C:\yourwebhost\rootfile
-•	Έπειτα θα κλωνοποιήσετε το repository από το GitHub με τη παρακάτω εντολή.
+    •	Έπειτα θα κλωνοποιήσετε το repository από το GitHub με τη παρακάτω εντολή.
 	git clone https://github.com/DespoinaZografidou/PaperQuest.git
-•	Θα μετακινηθείτε στο φάκελο του project.
+    •	Θα μετακινηθείτε στο φάκελο του project.
 	cd C:\yourwebhost\rootfile\PaperQuest
 2.	Το επόμενο βήμα είναι η εγκατάσταση των εξαρτήσεων του Laravel με Composer και npm.
-	composer install
-    npm install
+	    composer install
+        npm install
 Να δημιουργήσετε στο Web Host σας μία Βάση Δεδομένων με το όνομα «db_paperquest».
 1.	Να εισάγεται το dumb αρχείο στη βάση που μόλις δημιουργήσατε.
 2.	Έπειτα ανοίγοντας  το φάκελο της εφαρμογή ανοίξτε το .env αρχείο, και τροποποιήστε στις παρακάτω γραμμές του κώδικα τα στοιχείο της δικής σας βάσης που μόλις δημιουργήσατε.
@@ -43,12 +43,12 @@
   ------------------------------------------------------------------------------------------------------------------------------
   
 2.	Για να τρέξετε την εφαρμογή αρχικά πρέπει να τρέξετε  το Local Server.
-	cd C:\yourwebhost\rootfile\PaperQuestApp
-    php artisan serve
+	    cd C:\yourwebhost\rootfile\PaperQuestApp
+        php artisan serve
   	
 3. Και τέλος να εκτελέσετε τη μεταγλώττιση των assets σε με τις παρακάτω εντολές.
-	cd C:\yourwebhost\rootfile\PaperQuestApp
-    npm run dev
+	    cd C:\yourwebhost\rootfile\PaperQuestApp
+        npm run dev
 
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
