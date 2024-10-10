@@ -5,17 +5,17 @@
 1.	Το dump αρχείο της βάσης  
 2.	Το αρχείο με τα στοιχεία σύνδεσης σε λογαριασμούς χρηστών, που δημιουργήθηκαν για δοκιμές του συστήματος.
 3.	Προαπαιτούμε για την εγκατάσταση της εφαρμογής στο υπολογιστή σας είναι να είναι εγκαταστημένα τα εξής στον υπολογιστή σας :
-    •	 Composer: https://getcomposer.org/download/ 
-    •	Php: https://www.php.net/downloads 
+    •	 Composer: https://getcomposer.org/download/
+  	•	Php: https://www.php.net/downloads 
     •	Node.js: https://nodejs.org/en 
 1.	Για την εγκατάσταση της εφαρμογής στον υπολογιστή σας θα πρέπει να κλωνοποιήσετε το Project από το GitHub στο φάκελο root to Web Host της επιλογής σας.
     •	Έπειτα θα ανοίξετε το command prompt και θα μετακινηθείτε στο root φάκελο του  Web Host σας.
 	cd C:\yourwebhost\rootfile
     •	Έπειτα θα κλωνοποιήσετε το repository από το GitHub με τη παρακάτω εντολή.
-	git clone https://github.com/DespoinaZografidou/PaperQuest.git
+  	        git clone https://github.com/DespoinaZografidou/PaperQuest.git
     •	Θα μετακινηθείτε στο φάκελο του project.
-	cd C:\yourwebhost\rootfile\PaperQuest
-2.	Το επόμενο βήμα είναι η εγκατάσταση των εξαρτήσεων του Laravel με Composer και npm.
+  	        cd C:\yourwebhost\rootfile\PaperQuest
+3.	Το επόμενο βήμα είναι η εγκατάσταση των εξαρτήσεων του Laravel με Composer και npm.
 	    composer install
         npm install
 Να δημιουργήσετε στο Web Host σας μία Βάση Δεδομένων με το όνομα «db_paperquest».
