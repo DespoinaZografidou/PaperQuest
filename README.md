@@ -12,7 +12,7 @@
 •	Έπειτα θα ανοίξετε το command prompt και θα μετακινηθείτε στο root φάκελο του  Web Host σας.
 	cd C:\yourwebhost\rootfile
 •	Έπειτα θα κλωνοποιήσετε το repository από το GitHub με τη παρακάτω εντολή.
-	git clone 
+	git clone https://github.com/DespoinaZografidou/PaperQuest.git
 •	Θα μετακινηθείτε στο φάκελο του project.
 	cd C:\yourwebhost\rootfile\PaperQuest
 2.	Το επόμενο βήμα είναι η εγκατάσταση των εξαρτήσεων του Laravel με Composer και npm.
